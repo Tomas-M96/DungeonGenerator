@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: aae51c0061783424a9480745fa005659
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - baseTile: {instanceID: 0}
+  - floorTile: {instanceID: 0}
+  - leftWallTile: {instanceID: 0}
+  - rightWallTile: {instanceID: 0}
+  - topWallTile: {instanceID: 0}
+  - bottomWallTile: {instanceID: 0}
+  - topLeftCornerTile: {instanceID: 0}
+  - topRightCornerTile: {instanceID: 0}
+  - bottomRightCornerTile: {instanceID: 0}
+  - bottomLeftCornerTile: {instanceID: 0}
+  - singleWallTile: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
