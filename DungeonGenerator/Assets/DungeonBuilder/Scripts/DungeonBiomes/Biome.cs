@@ -11,12 +11,13 @@ public class Biome : ScriptableObject
     [SerializeField] private Tile baseTile;
     [SerializeField] private Tile floorTile;
 
+    [Header("Wall Tiles")]
     [SerializeField] private Tile leftWallTile;
     [SerializeField] private Tile rightWallTile;
     [SerializeField] private Tile topWallTile;
     [SerializeField] private Tile bottomWallTile;
 
-    [Header("Outer Corner Wall Tiles")]
+    [Header("Corner Wall Tiles")]
     [SerializeField] private Tile topLeftCornerTile;
     [SerializeField] private Tile topRightCornerTile;
     [SerializeField] private Tile bottomRightCornerTile;
@@ -24,6 +25,16 @@ public class Biome : ScriptableObject
 
     [Header("Single Wall Tiles")]
     [SerializeField] private Tile singleWallTile;
+    [SerializeField] private Tile singleLeftJoinTile;
+    [SerializeField] private Tile singleRightJoinTile;
+    [SerializeField] private Tile singleUpJoinTile;
+    [SerializeField] private Tile singleDownJoinTile;
+
+    [Header("Placeholder Wall Tiles")]
+    [SerializeField] private Tile placeholderTile;
+
+    [Header("Other Tiles")]
+    [SerializeField] private Tile stairsTile;
 
 
     public Tile BaseTile { get { return baseTile; } }
@@ -40,4 +51,12 @@ public class Biome : ScriptableObject
     public Tile BottomRightCornerWall { get { return bottomRightCornerTile; } }
 
     public Tile SingleWall { get { return singleWallTile; } }
+    public Tile LeftJoinWall { get { return singleLeftJoinTile; } }
+    public Tile RightJoinWall { get { return singleRightJoinTile; } }
+    public Tile UpJoinWall { get { return singleUpJoinTile; } }
+    public Tile DownJoinWall { get { return singleDownJoinTile; } }
+
+    public Tile PlaceholderWall { get { return placeholderTile; } }
+
+    public Tile Stairs { get { return stairsTile; } }
 }
