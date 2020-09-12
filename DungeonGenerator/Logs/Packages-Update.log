@@ -19,3 +19,20 @@ Update Mode: mergeDefaultDependencies
 
 The following packages were updated:
   com.unity.ads from version 2.0.8 to 2.3.1
+
+=== Tue Sep  8 14:55:16 2020
+
+Packages were changed.
+Update Mode: updateDependencies
+
+The following packages were added:
+  com.unity.2d.sprite@1.0.0
+  com.unity.2d.tilemap@1.0.0
+  com.unity.ide.rider@1.2.1
+  com.unity.ide.visualstudio@2.0.2
+  com.unity.ide.vscode@1.2.1
+  com.unity.modules.androidjni@1.0.0
+  com.unity.test-framework@1.1.14
+  com.unity.ugui@1.0.0
+The following packages were removed:
+  com.unity.package-manager-ui@2.1.2
